@@ -28,6 +28,14 @@ public class CorsUtil {
     public static void sendJson(HttpExchange exchange, int code, String json) throws IOException {
         addCorsHeaders(exchange);
         byte[] bytes = json.getBytes("UTF-8");
+        
+        if ("HEAD".equalsIgnoreCase(exchange.getRequestMethod())) {
+            exchange.getResponseHeaders().add("Content-Length", String.valueOf(bytes.length));
+            exchange.sendResponseHeaders(code, -1);
+            exchange.getResponseBody().close();
+            return;
+        }
+        
         exchange.sendResponseHeaders(code, bytes.length);
         exchange.getResponseBody().write(bytes);
         exchange.getResponseBody().close();
