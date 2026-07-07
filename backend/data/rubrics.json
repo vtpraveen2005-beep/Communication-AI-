@@ -1,0 +1,272 @@
+{
+  "criteria": {
+    "clarity": {
+      "name": "Clarity",
+      "description": "How clear and understandable is the communication?",
+      "icon": "🔍",
+      "levels": {
+        "1": "Very unclear, hard to follow, disorganized thoughts",
+        "2": "Somewhat unclear, some parts hard to follow",
+        "3": "Mostly clear, minor lapses in clarity",
+        "4": "Clear and easy to follow throughout",
+        "5": "Exceptionally clear, every point is well-articulated"
+      }
+    },
+    "fluency": {
+      "name": "Fluency",
+      "description": "Smoothness and flow of communication without excessive pausing or repetition",
+      "icon": "🌊",
+      "levels": {
+        "1": "Very choppy, many long pauses or repetitions",
+        "2": "Some interruptions and hesitations",
+        "3": "Mostly fluent with occasional pauses",
+        "4": "Fluent and natural delivery",
+        "5": "Exceptionally smooth and natural flow"
+      }
+    },
+    "vocabulary": {
+      "name": "Vocabulary",
+      "description": "Range and appropriateness of words used",
+      "icon": "📚",
+      "levels": {
+        "1": "Very limited vocabulary, many inappropriate word choices",
+        "2": "Limited vocabulary, some inappropriate choices",
+        "3": "Adequate vocabulary, mostly appropriate",
+        "4": "Good range of vocabulary, well-chosen words",
+        "5": "Excellent, rich vocabulary used precisely and effectively"
+      }
+    },
+    "confidence": {
+      "name": "Confidence",
+      "description": "Level of assurance and authority in delivery",
+      "icon": "⚡",
+      "levels": {
+        "1": "Very hesitant, lacks confidence throughout",
+        "2": "Somewhat hesitant, confidence is inconsistent",
+        "3": "Generally confident with some uncertain moments",
+        "4": "Confident and assured delivery",
+        "5": "Exceptionally confident and commanding presence"
+      }
+    },
+    "structure": {
+      "name": "Structure",
+      "description": "Logical organization with clear beginning, middle, and end",
+      "icon": "🏗️",
+      "levels": {
+        "1": "No discernible structure, very disorganized",
+        "2": "Weak structure, hard to identify sections",
+        "3": "Basic structure present but not fully developed",
+        "4": "Good structure with clear sections",
+        "5": "Excellent, well-organized with seamless transitions"
+      }
+    },
+    "grammar": {
+      "name": "Grammar",
+      "description": "Correctness of grammar, punctuation, and sentence structure",
+      "icon": "✅",
+      "levels": {
+        "1": "Many serious grammar errors that impede understanding",
+        "2": "Several grammar errors, some impact on clarity",
+        "3": "Some grammar errors but meaning is clear",
+        "4": "Few minor grammar errors",
+        "5": "Grammatically excellent with no notable errors"
+      }
+    },
+    "tone": {
+      "name": "Tone",
+      "description": "Appropriateness of tone to the context and audience",
+      "icon": "🎭",
+      "levels": {
+        "1": "Completely inappropriate tone for the context",
+        "2": "Mostly inappropriate, some elements work",
+        "3": "Generally appropriate tone with minor lapses",
+        "4": "Appropriate and consistent tone throughout",
+        "5": "Perfect tone, precisely calibrated to context and audience"
+      }
+    },
+    "persuasion": {
+      "name": "Persuasion",
+      "description": "Effectiveness at convincing or influencing the audience",
+      "icon": "💡",
+      "levels": {
+        "1": "Not at all persuasive, no clear argument",
+        "2": "Weak persuasion, arguments not compelling",
+        "3": "Some persuasive elements, moderately convincing",
+        "4": "Persuasive and convincing with good support",
+        "5": "Highly persuasive, compelling and well-supported"
+      }
+    },
+    "reasoning": {
+      "name": "Reasoning",
+      "description": "Quality of logical reasoning and critical thinking",
+      "icon": "🧠",
+      "levels": {
+        "1": "No logical reasoning, claims unsupported",
+        "2": "Weak reasoning, limited support for claims",
+        "3": "Some logical reasoning present",
+        "4": "Good reasoning with solid support",
+        "5": "Excellent critical reasoning with strong evidence"
+      }
+    },
+    "storytelling": {
+      "name": "Storytelling",
+      "description": "Ability to craft engaging narratives with emotional resonance",
+      "icon": "📖",
+      "levels": {
+        "1": "No narrative, just facts listed",
+        "2": "Basic narrative with little engagement",
+        "3": "Decent story with some engaging elements",
+        "4": "Good story, engaging and coherent",
+        "5": "Compelling story with vivid details and emotional impact"
+      }
+    },
+    "completeness": {
+      "name": "Completeness",
+      "description": "Whether all required elements are present and addressed",
+      "icon": "📋",
+      "levels": {
+        "1": "Missing most required elements",
+        "2": "Missing several key elements",
+        "3": "Most elements present, some gaps",
+        "4": "All key elements addressed",
+        "5": "Complete and thorough coverage of all elements"
+      }
+    },
+    "descriptiveness": {
+      "name": "Descriptiveness",
+      "description": "Use of vivid, sensory details that paint a clear picture",
+      "icon": "🎨",
+      "levels": {
+        "1": "Very vague, no descriptive details",
+        "2": "Few descriptive details, mostly general",
+        "3": "Some good details, could be more vivid",
+        "4": "Good descriptive language throughout",
+        "5": "Rich, vivid descriptions that immerse the reader"
+      }
+    },
+    "argumentation": {
+      "name": "Argumentation",
+      "description": "Strength and logic of arguments presented",
+      "icon": "⚖️",
+      "levels": {
+        "1": "No clear arguments, just opinions",
+        "2": "Weak arguments, poorly supported",
+        "3": "Some valid arguments, needs more support",
+        "4": "Strong arguments, well-supported",
+        "5": "Excellent, well-structured and compelling arguments"
+      }
+    },
+    "formality": {
+      "name": "Formality",
+      "description": "Appropriate level of formal language for the context",
+      "icon": "👔",
+      "levels": {
+        "1": "Completely informal, inappropriate for context",
+        "2": "Mostly informal, some formal elements",
+        "3": "Mix of formal and informal, generally acceptable",
+        "4": "Mostly formal and appropriate",
+        "5": "Perfectly formal, professional throughout"
+      }
+    },
+    "coherence": {
+      "name": "Coherence",
+      "description": "Logical flow and connection between ideas",
+      "icon": "🔗",
+      "levels": {
+        "1": "Ideas are unrelated and disconnected",
+        "2": "Poor connections between ideas",
+        "3": "Some logical connections, some gaps",
+        "4": "Ideas flow well with good transitions",
+        "5": "Perfectly coherent, seamless flow of ideas"
+      }
+    },
+    "creativity": {
+      "name": "Creativity",
+      "description": "Originality and creative approach to the task",
+      "icon": "✨",
+      "levels": {
+        "1": "Very generic, no creative elements",
+        "2": "Little creativity, mostly predictable",
+        "3": "Some creative touches, mostly conventional",
+        "4": "Good creativity, fresh perspective",
+        "5": "Highly creative, original and imaginative approach"
+      }
+    },
+    "analysis": {
+      "name": "Analysis",
+      "description": "Depth of analytical thinking and examination of the topic",
+      "icon": "🔬",
+      "levels": {
+        "1": "Surface level only, no real analysis",
+        "2": "Superficial analysis, minimal depth",
+        "3": "Some analytical thinking, could go deeper",
+        "4": "Good analysis with multiple perspectives",
+        "5": "Excellent, deep and nuanced analysis"
+      }
+    },
+    "narrative-flow": {
+      "name": "Narrative Flow",
+      "description": "How well the story progresses and engages the reader",
+      "icon": "🌀",
+      "levels": {
+        "1": "No flow, story feels disjointed",
+        "2": "Poor flow, transitions are abrupt",
+        "3": "Decent flow with some rough transitions",
+        "4": "Good flow, story moves naturally",
+        "5": "Excellent flow, story pulls the reader in seamlessly"
+      }
+    },
+    "originality": {
+      "name": "Originality",
+      "description": "Uniqueness and fresh perspective in approach",
+      "icon": "💎",
+      "levels": {
+        "1": "Very clichéd and predictable",
+        "2": "Mostly predictable with few original ideas",
+        "3": "Some original elements amid conventional ideas",
+        "4": "Good originality, fresh perspective",
+        "5": "Highly original, unique and memorable"
+      }
+    },
+    "critical-thinking": {
+      "name": "Critical Thinking",
+      "description": "Ability to evaluate, synthesize, and form independent judgments",
+      "icon": "🔭",
+      "levels": {
+        "1": "No evidence of critical thinking",
+        "2": "Minimal critical thinking, mostly surface-level",
+        "3": "Some evidence of critical thinking",
+        "4": "Good critical thinking, well-reasoned conclusions",
+        "5": "Excellent critical thinking, sophisticated analysis"
+      }
+    }
+  },
+  "scoring": {
+    "excellent": { "min": 85, "label": "Excellent Communicator", "color": "#10B981", "emoji": "🏆" },
+    "proficient": { "min": 70, "label": "Proficient Communicator", "color": "#3B82F6", "emoji": "⭐" },
+    "developing": { "min": 55, "label": "Developing Communicator", "color": "#F59E0B", "emoji": "📈" },
+    "beginner": { "min": 0, "label": "Beginner Communicator", "color": "#EF4444", "emoji": "💪" }
+  },
+  "recommendations": {
+    "clarity": "Practice the PREP method (Point, Reason, Example, Point) to structure your thoughts before speaking or writing.",
+    "fluency": "Record yourself speaking daily for 5 minutes on any topic. Review and identify hesitation patterns.",
+    "vocabulary": "Read 20 minutes daily from varied sources. Keep a vocabulary journal of new words.",
+    "confidence": "Join a public speaking group (like Toastmasters) or practice mirror exercises daily.",
+    "structure": "Use the 'rule of three' — every communication should have 3 main points with a clear intro and conclusion.",
+    "grammar": "Use grammar checking tools and study common error patterns. Practice editing your own writing.",
+    "tone": "Practice code-switching — write the same message in formal and informal registers and compare them.",
+    "persuasion": "Study rhetorical techniques: ethos, pathos, logos. Practice by writing persuasive pieces on daily topics.",
+    "reasoning": "Practice structured argumentation using the Toulmin model: claim, grounds, warrant, backing.",
+    "storytelling": "Learn the three-act structure and apply it to personal anecdotes. Practice storytelling in conversations.",
+    "completeness": "Use checklists before submitting written communication. Review prompts against your responses.",
+    "descriptiveness": "Practice sensory writing exercises — describe a scene using all five senses.",
+    "argumentation": "Debate both sides of an argument to understand opposing views and strengthen your own position.",
+    "formality": "Study formal writing templates and practice rewriting informal messages in formal register.",
+    "coherence": "Use transition words and phrases (however, therefore, in addition) to link your ideas.",
+    "creativity": "Practice free-writing for 10 minutes daily without editing. Read widely across genres.",
+    "analysis": "Practice the PEEL method (Point, Evidence, Explanation, Link) for analytical writing.",
+    "narrative-flow": "Study narrative techniques like foreshadowing, pacing, and scene transitions in good literature.",
+    "originality": "Challenge yourself to find a non-obvious angle on every topic. Ask 'What would most people NOT say?'",
+    "critical-thinking": "Practice the Socratic questioning method — question assumptions, evidence, and implications."
+  }
+}

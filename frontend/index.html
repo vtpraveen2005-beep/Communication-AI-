@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CommAI — An Agentic AI Communication Assessment Platform powered by Java backend and Gemini AI. Evaluate verbal, written, listening, and presentation skills." />
+  <title>CommAI — Agentic AI Communication Assessment</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="/css/styles.css" />
+
+  <!-- Chart.js for radar chart in reports -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+  <style>
+    @media print {
+      .nav, #particles, #toast-container, .btn { display: none !important; }
+      body { background: white !important; color: black !important; }
+      .card { border: 1px solid #ddd !important; background: white !important; }
+    }
+  </style>
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute;visibility:hidden;" aria-hidden="true">
+    <defs>
+      <linearGradient id="logo-bubble-1" x1="15" y1="15" x2="65" y2="65" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#4F46E5" />
+        <stop offset="100%" stop-color="#EC4899" />
+      </linearGradient>
+      <linearGradient id="logo-bubble-2" x1="40" y1="35" x2="90" y2="85" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#06B6D4" />
+        <stop offset="100%" stop-color="#10B981" />
+      </linearGradient>
+    </defs>
+  </svg>
+  <div id="particles" aria-hidden="true"></div>
+  <div id="app">
+    <div class="page" id="page-login"></div>
+    <div class="page active" id="page-dashboard">
+      <div style="display:flex;align-items:center;justify-content:center;height:100vh;flex-direction:column;gap:16px;">
+        <div class="spinner"></div>
+        <p style="color:var(--text-muted);font-size:0.85rem;">Connecting to Java backend...</p>
+      </div>
+    </div>
+    <div class="page" id="page-select-assessment"></div>
+    <div class="page" id="page-level-select"></div>
+    <div class="page" id="page-assessment"></div>
+    <div class="page" id="page-report"></div>
+  </div>
+  <div id="modal-overlay" class="hidden" onclick="event.target===this&&app.closeModal()">
+    <div id="modal-content"></div>
+  </div>
+  <div id="toast-container" role="status" aria-live="polite"></div>
+
+  <!-- Scripts -->
+  <script src="/js/api.js?v=3"></script>
+  <script src="/js/auth.js?v=3"></script>
+  <script src="/js/assessments/oral.js?v=3"></script>
+  <script src="/js/assessments/written.js?v=3"></script>
+  <script src="/js/assessments/listening.js?v=3"></script>
+  <script src="/js/assessments/presentation.js?v=3"></script>
+  <script src="/js/report.js?v=3"></script>
+  <script src="/js/app.js?v=3"></script>
+</body>
+</html>

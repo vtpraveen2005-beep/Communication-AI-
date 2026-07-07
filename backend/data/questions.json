@@ -1,0 +1,369 @@
+{
+  "oral": [
+    {
+      "id": "o1",
+      "level": 1,
+      "category": "introduction",
+      "prompt": "Introduce yourself in 60 seconds. Tell us about your name, background, and one thing you are passionate about.",
+      "duration": 60,
+      "keywords": ["name", "background", "passionate", "experience", "work", "study"],
+      "criteria": ["clarity", "fluency", "vocabulary", "confidence", "structure"]
+    },
+    {
+      "id": "o2",
+      "level": 1,
+      "category": "opinion",
+      "prompt": "Do you think remote work is more productive than working from an office? Share your opinion and support it with reasons.",
+      "duration": 90,
+      "keywords": ["productive", "remote", "office", "because", "reason", "benefit", "advantage", "disadvantage"],
+      "criteria": ["clarity", "fluency", "vocabulary", "reasoning", "structure"]
+    },
+    {
+      "id": "o3",
+      "level": 2,
+      "category": "storytelling",
+      "prompt": "Describe a challenging situation you faced and how you overcame it. What did you learn from that experience?",
+      "duration": 90,
+      "keywords": ["challenge", "problem", "solution", "learned", "experience", "overcame", "difficult"],
+      "criteria": ["clarity", "fluency", "storytelling", "vocabulary", "confidence"]
+    },
+    {
+      "id": "o4",
+      "level": 2,
+      "category": "persuasion",
+      "prompt": "You have 90 seconds to convince someone to adopt a healthier lifestyle. What would you say?",
+      "duration": 90,
+      "keywords": ["health", "lifestyle", "benefit", "important", "recommend", "suggest", "improve"],
+      "criteria": ["clarity", "persuasion", "vocabulary", "structure", "confidence"]
+    },
+    {
+      "id": "o5",
+      "level": 3,
+      "category": "impromptu",
+      "prompt": "You are asked to give a 2-minute speech on 'The role of technology in modern education'. Begin speaking now.",
+      "duration": 120,
+      "keywords": ["technology", "education", "learning", "students", "digital", "modern", "tools", "benefit"],
+      "criteria": ["clarity", "fluency", "vocabulary", "structure", "persuasion"]
+    },
+    {
+      "id": "o6",
+      "level": 3,
+      "category": "critical-thinking",
+      "prompt": "If you were given the power to change one thing about the current education system, what would it be and why?",
+      "duration": 120,
+      "keywords": ["change", "education", "system", "improve", "because", "reason", "students", "teachers"],
+      "criteria": ["clarity", "reasoning", "vocabulary", "confidence", "structure"]
+    }
+  ],
+  "written": [
+    {
+      "id": "w1",
+      "level": 1,
+      "category": "email",
+      "title": "Professional Email Writing",
+      "prompt": "Write a professional email to your manager requesting a one-week leave for a family emergency. The email should be polite, concise, and include all necessary details.",
+      "duration": 600,
+      "minWords": 80,
+      "maxWords": 150,
+      "criteria": ["grammar", "structure", "tone", "clarity", "completeness"],
+      "expectedElements": ["subject line", "greeting", "reason", "dates", "closing"],
+      "sampleKeywords": ["request", "leave", "emergency", "appreciate", "kindly", "sincerely"]
+    },
+    {
+      "id": "w2",
+      "level": 1,
+      "category": "paragraph",
+      "title": "Descriptive Paragraph",
+      "prompt": "Write a descriptive paragraph (100-150 words) about your ideal workspace. Include details about the environment, tools, and atmosphere.",
+      "duration": 480,
+      "minWords": 100,
+      "maxWords": 150,
+      "criteria": ["grammar", "vocabulary", "descriptiveness", "coherence", "creativity"],
+      "expectedElements": ["topic sentence", "details", "sensory language", "conclusion"],
+      "sampleKeywords": ["comfortable", "quiet", "organized", "productive", "environment"]
+    },
+    {
+      "id": "w3",
+      "level": 2,
+      "category": "persuasive",
+      "title": "Persuasive Writing",
+      "prompt": "Write a persuasive essay (150-200 words) arguing that 'Social media does more harm than good for teenagers.' Include at least two supporting arguments.",
+      "duration": 720,
+      "minWords": 150,
+      "maxWords": 200,
+      "criteria": ["grammar", "argumentation", "structure", "vocabulary", "persuasion"],
+      "expectedElements": ["thesis", "argument 1", "argument 2", "evidence", "conclusion"],
+      "sampleKeywords": ["harmful", "addiction", "mental health", "cyberbullying", "evidence", "therefore"]
+    },
+    {
+      "id": "w4",
+      "level": 2,
+      "category": "report",
+      "title": "Business Report Writing",
+      "prompt": "Write a short business report (150-200 words) summarizing the benefits of implementing a 4-day work week at your organization. Include a recommendation.",
+      "duration": 720,
+      "minWords": 150,
+      "maxWords": 200,
+      "criteria": ["grammar", "structure", "formality", "clarity", "completeness"],
+      "expectedElements": ["title", "introduction", "findings", "recommendation", "conclusion"],
+      "sampleKeywords": ["productivity", "employee", "wellbeing", "recommend", "implementation", "benefits"]
+    },
+    {
+      "id": "w5",
+      "level": 3,
+      "category": "analytical",
+      "title": "Analytical Essay",
+      "prompt": "In 200-250 words, analyze the impact of artificial intelligence on the job market. Discuss both opportunities and challenges, and offer your perspective on how society should adapt.",
+      "duration": 900,
+      "minWords": 200,
+      "maxWords": 250,
+      "criteria": ["grammar", "analysis", "vocabulary", "structure", "critical-thinking"],
+      "expectedElements": ["introduction", "opportunities", "challenges", "perspective", "conclusion"],
+      "sampleKeywords": ["artificial intelligence", "automation", "employment", "adaptation", "skills", "future"]
+    },
+    {
+      "id": "w6",
+      "level": 3,
+      "category": "creative",
+      "title": "Creative Narrative",
+      "prompt": "Write a short narrative (200-250 words) from the perspective of a robot that has just gained consciousness. Describe its first 5 minutes of awareness.",
+      "duration": 900,
+      "minWords": 200,
+      "maxWords": 250,
+      "criteria": ["grammar", "creativity", "narrative-flow", "vocabulary", "originality"],
+      "expectedElements": ["opening hook", "sensory details", "emotion", "dialogue or thought", "ending"],
+      "sampleKeywords": ["awakened", "conscious", "experience", "wondered", "sensed", "observed"]
+    }
+  ],
+  "listening": [
+    {
+      "id": "l1",
+      "level": 1,
+      "scenario": "Team Meeting",
+      "description": "Read the following meeting transcript carefully. You have 60 seconds to read and take notes, then answer questions.",
+      "content": "Good morning everyone. Thank you for joining today's sprint planning meeting. As discussed last week, we have three main priorities this quarter: launching the mobile app by October 15th, improving our customer support response time from 24 hours to 4 hours, and training the new team members on our internal tools. Sarah will lead the mobile app development. Please ensure all unit tests are completed by September 30th. John will handle the customer support improvements and will present a new ticketing system proposal by next Friday. For new member training, we'll be hosting three workshops: Monday on data tools, Wednesday on communication protocols, and Friday on project management. Attendance is mandatory for all new joiners. Any questions can be directed to me via email. Thank you.",
+      "duration": 60,
+      "questions": [
+        {
+          "q": "What is the deadline for the mobile app launch?",
+          "options": ["September 30th", "October 15th", "Next Friday", "End of Quarter"],
+          "answer": 1
+        },
+        {
+          "q": "What is the new customer support response time target?",
+          "options": ["24 hours", "12 hours", "4 hours", "2 hours"],
+          "answer": 2
+        },
+        {
+          "q": "Who is leading the mobile app development?",
+          "options": ["John", "The speaker", "Sarah", "New team members"],
+          "answer": 2
+        },
+        {
+          "q": "On which day is the communication protocols workshop scheduled?",
+          "options": ["Monday", "Tuesday", "Wednesday", "Friday"],
+          "answer": 2
+        },
+        {
+          "q": "What must be completed by September 30th?",
+          "options": ["Customer support improvements", "New member onboarding", "Unit tests", "Ticketing system proposal"],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "l2",
+      "level": 2,
+      "scenario": "Client Call",
+      "description": "Read this client call transcript carefully. You have 75 seconds to read, then answer comprehension questions.",
+      "content": "Client: Hi, I'm calling about the project proposal you sent last Tuesday. Overall we like the approach, but we have some concerns about the timeline and budget. Agent: Of course, thank you for reaching out. Could you specify which parts of the timeline concern you? Client: Well, we were expecting the first prototype by end of month, but your proposal says six weeks. Also the budget is about 20% higher than what we initially discussed — around $15,000 over our $75,000 ceiling. Agent: I understand. The six-week timeline accounts for the additional user testing phase we recommended, which was not in the original scope. As for the budget, the $15,000 overage is primarily for the UI/UX design specialist we added to ensure quality. However, we can offer a phased approach — deliver the core functionality within your budget by end of month, and handle the premium features in a second phase. Client: That sounds more workable. Can you send me a revised proposal with those two phases clearly outlined by Thursday? Agent: Absolutely. You'll have it by Thursday morning. Thank you for your flexibility.",
+      "duration": 75,
+      "questions": [
+        {
+          "q": "When did the agent send the original project proposal?",
+          "options": ["Last Monday", "Last Tuesday", "Last Thursday", "This week"],
+          "answer": 1
+        },
+        {
+          "q": "How much is the budget overage?",
+          "options": ["$75,000", "$15,000", "$20,000", "$10,000"],
+          "answer": 1
+        },
+        {
+          "q": "Why did the agent recommend six weeks instead of one month?",
+          "options": ["More developers needed", "Additional user testing phase", "UI/UX redesign", "Client requested it"],
+          "answer": 1
+        },
+        {
+          "q": "What solution did the agent propose?",
+          "options": ["Reduce the scope entirely", "Extend the deadline by 3 months", "Phased approach — core features first", "Hire more staff"],
+          "answer": 2
+        },
+        {
+          "q": "By when will the agent send the revised proposal?",
+          "options": ["Tuesday", "Wednesday", "Thursday morning", "End of the week"],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "l3",
+      "level": 3,
+      "scenario": "Leadership Talk",
+      "description": "Read this excerpt from a leadership talk. You have 90 seconds, then answer analytical questions.",
+      "content": "The most dangerous myth in organizational culture is the belief that effective communication is simply about conveying information. Leaders who operate under this assumption focus on clarity and completeness of the message — and while those are necessary, they are not sufficient. True communication is relational. It is about creating shared understanding, not just transferring data. Consider the difference between a leader who says 'Our Q3 results were below target due to supply chain disruptions' and one who says 'I want to talk about what happened last quarter and what it means for each of us.' The first statement is informative. The second invites dialogue, acknowledges impact, and humanizes the situation. Research consistently shows that employees who feel heard are 4.6 times more likely to perform at their best. The implication for leaders is clear: communication is not a soft skill. It is the most strategic tool you have. The question is not whether you communicate — you always are — but whether you do so with intention. Silence communicates. Tone communicates. Eye contact communicates. Every leadership decision is a communication decision.",
+      "duration": 90,
+      "questions": [
+        {
+          "q": "What does the speaker identify as the most dangerous myth in organizational culture?",
+          "options": ["That leaders must always be right", "That communication is just about conveying information", "That Q3 results determine company health", "That soft skills are unimportant"],
+          "answer": 1
+        },
+        {
+          "q": "According to the speaker, what makes true communication different?",
+          "options": ["It is louder and more frequent", "It focuses on clarity of data", "It creates shared understanding and is relational", "It avoids conflict"],
+          "answer": 2
+        },
+        {
+          "q": "What does the research statistic referenced in the talk state?",
+          "options": ["Employees work 4.6 times harder with bonuses", "Heard employees are 4.6 times more likely to perform at their best", "Leaders communicate 4.6 times more than managers", "Communication improves productivity by 4.6%"],
+          "answer": 1
+        },
+        {
+          "q": "What is the speaker's main implication for leaders?",
+          "options": ["Communication is optional when results are good", "Silence is always counterproductive", "Communication is a strategic, intentional tool", "Data transparency solves all problems"],
+          "answer": 2
+        },
+        {
+          "q": "Which of these does the speaker say also communicates, beyond words?",
+          "options": ["Salary and benefits", "Office decor", "Tone, silence, and eye contact", "Written reports"],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "presentation": [
+    {
+      "id": "p1",
+      "level": 1,
+      "title": "Introduce a Product",
+      "context": "You are presenting a new productivity app to a potential investor. Complete each slide section below.",
+      "slides": [
+        {
+          "slide": 1,
+          "label": "Opening Hook",
+          "prompt": "Start with an attention-grabbing opening. What problem does your app solve? (Write your opening statement)",
+          "placeholder": "e.g., 'Every day, professionals lose 2 hours to disorganized tasks. Our app changes that...'",
+          "minWords": 30
+        },
+        {
+          "slide": 2,
+          "label": "Product Overview",
+          "prompt": "Describe your app's core features in 2-3 sentences. What makes it unique?",
+          "placeholder": "e.g., 'FocusFlow is an AI-powered task manager that...'",
+          "minWords": 40
+        },
+        {
+          "slide": 3,
+          "label": "Target Audience",
+          "prompt": "Who is your target audience and why would they use your product?",
+          "placeholder": "e.g., 'Our primary audience is remote professionals aged 25-45 who...'",
+          "minWords": 30
+        },
+        {
+          "slide": 4,
+          "label": "Call to Action",
+          "prompt": "Close with a compelling call to action. What do you want the investor to do next?",
+          "placeholder": "e.g., 'We invite you to join our seed round and be part of...'",
+          "minWords": 25
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "level": 2,
+      "title": "Propose a Change",
+      "context": "You are presenting a proposal to your leadership team to adopt a new company-wide communication tool.",
+      "slides": [
+        {
+          "slide": 1,
+          "label": "The Problem",
+          "prompt": "Describe the current communication challenges your organization faces.",
+          "placeholder": "e.g., 'Currently, our team uses 5 different tools which causes...'",
+          "minWords": 40
+        },
+        {
+          "slide": 2,
+          "label": "Proposed Solution",
+          "prompt": "Introduce the new tool and explain how it solves the problem.",
+          "placeholder": "e.g., 'I propose we adopt [Tool Name] which unifies all communication into...'",
+          "minWords": 50
+        },
+        {
+          "slide": 3,
+          "label": "Expected Benefits",
+          "prompt": "List 3 measurable benefits of adopting this solution.",
+          "placeholder": "e.g., '1. 30% reduction in email volume. 2. Faster decision-making. 3...'",
+          "minWords": 40
+        },
+        {
+          "slide": 4,
+          "label": "Implementation Plan",
+          "prompt": "Outline a brief 3-phase rollout plan with approximate timelines.",
+          "placeholder": "e.g., 'Phase 1 (Week 1-2): Pilot with 10 team members. Phase 2...'",
+          "minWords": 50
+        },
+        {
+          "slide": 5,
+          "label": "Conclusion & Ask",
+          "prompt": "Summarize and make your ask — what do you need leadership to approve?",
+          "placeholder": "e.g., 'In conclusion, this initiative will save us X hours per week. I am requesting...'",
+          "minWords": 35
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "level": 3,
+      "title": "Crisis Communication",
+      "context": "A major system outage has affected your company's services for 6 hours. You are addressing a press conference and key stakeholders.",
+      "slides": [
+        {
+          "slide": 1,
+          "label": "Acknowledgment",
+          "prompt": "Acknowledge the incident with empathy. Take responsibility without blaming others.",
+          "placeholder": "e.g., 'We are deeply aware of the disruption this outage has caused...'",
+          "minWords": 40
+        },
+        {
+          "slide": 2,
+          "label": "What Happened",
+          "prompt": "Explain clearly (in simple terms) what caused the outage. Avoid jargon.",
+          "placeholder": "e.g., 'At 2:00 AM, a critical server update triggered an unexpected cascade failure...'",
+          "minWords": 50
+        },
+        {
+          "slide": 3,
+          "label": "What We Did",
+          "prompt": "Describe the steps your team took to resolve the issue.",
+          "placeholder": "e.g., 'Our engineering team was alerted within 10 minutes and immediately...'",
+          "minWords": 50
+        },
+        {
+          "slide": 4,
+          "label": "Prevention Plan",
+          "prompt": "What measures will you put in place to ensure this doesn't happen again?",
+          "placeholder": "e.g., 'To prevent recurrence, we are implementing a three-layer backup system...'",
+          "minWords": 40
+        },
+        {
+          "slide": 5,
+          "label": "Closing Reassurance",
+          "prompt": "Close with a message of reassurance and commitment to stakeholders.",
+          "placeholder": "e.g., 'We understand your trust is earned, not given. We commit to...'",
+          "minWords": 35
+        }
+      ]
+    }
+  ]
+}
