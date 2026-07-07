@@ -58,6 +58,14 @@ public class StaticHandler implements HttpHandler {
         byte[] content = Files.readAllBytes(file);
         exchange.getResponseHeaders().add("Content-Type", mime);
         exchange.getResponseHeaders().add("Cache-Control", "no-cache");
+        
+        if ("HEAD".equalsIgnoreCase(exchange.getRequestMethod())) {
+            exchange.getResponseHeaders().add("Content-Length", String.valueOf(content.length));
+            exchange.sendResponseHeaders(200, -1);
+            exchange.getResponseBody().close();
+            return;
+        }
+        
         exchange.sendResponseHeaders(200, content.length);
         exchange.getResponseBody().write(content);
         exchange.getResponseBody().close();
